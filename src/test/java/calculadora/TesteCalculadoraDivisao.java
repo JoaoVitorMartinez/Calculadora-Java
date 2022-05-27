@@ -5,32 +5,28 @@
 package calculadora;
 
 import com.mycompany.calculadora1.Calculadora;
-import static junit.framework.Assert.assertEquals;
 import org.junit.Test;
 
-
-
-
-
+import static junit.framework.Assert.assertEquals;
 
 
 /**
  *
  * @author alunopb
  */
-public class TesteCalculadora {
-    
-    public TesteCalculadora() {
+public class TesteCalculadoraDivisao {
+
+    public TesteCalculadoraDivisao() {
     }
     
     @Test
-    public void testGetAdicao(){
+    public void testGetDivisao(){
         Calculadora calculadora = new Calculadora(4.0,2.0);
         double retornoEsperado = 2.0;
         double retornoFeito = calculadora.getDivisao();
         assertEquals(retornoEsperado, retornoFeito, 0);
         
-        System.out.println(retornoFeito);
+//        System.out.println(retornoFeito);
         
         
         

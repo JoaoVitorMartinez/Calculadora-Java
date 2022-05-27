@@ -5,7 +5,7 @@
 package teste;
 
 
-import calculadora.TesteCalculadora;
+import calculadora.*;
 import junit.framework.JUnit4TestAdapter;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -15,8 +15,9 @@ import org.junit.runners.Suite.SuiteClasses;
  *
  * @author alunopb
  */
-@RunWith(Suite.class)
-@SuiteClasses({TesteCalculadora.class})
+@RunWith(Suite.class) // No SuiteClasses Vai todos os testes unitários para serem realizados em conjunto.
+@SuiteClasses({TesteCalculadoraAdicao.class, TesteCalculadoraDivisao.class, TesteCalculadoraProduto.class, TesteCalculadoraSubtracao.class})
+
 public class NewTestSuite {
     public static junit.framework.Test suite(){
         return new JUnit4TestAdapter(NewTestSuite.class);
