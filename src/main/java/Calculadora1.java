@@ -1,4 +1,4 @@
-package com.mycompany.calculadora1;
+import com.mycompany.calculadora1.Calculadora;
 
 import javax.swing.JOptionPane;
 
@@ -18,16 +18,16 @@ public class Calculadora1 {
                     calculadora.setValorB(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor B")));
                     break;
                 case 2:
-                    JOptionPane.showMessageDialog(null, "Soma:" + calculadora.getAdicao());
+                    JOptionPane.showMessageDialog(null, "Soma: " + calculadora.getAdicao());
                     break;
                 case 3:
-                    JOptionPane.showMessageDialog(null, "Subtração:" + calculadora.getSubtracao());
+                    JOptionPane.showMessageDialog(null, "Subtração: " + calculadora.getSubtracao());
                     break;
                 case 4:
-                    JOptionPane.showMessageDialog(null, "Produto:" + calculadora.getProduto());
+                    JOptionPane.showMessageDialog(null, "Produto: " + calculadora.getProduto());
                     break;
                 case 5:
-                    JOptionPane.showMessageDialog(null, "Divisão:" + calculadora.getDivisao());
+                    JOptionPane.showMessageDialog(null, "Divisão: " + calculadora.getDivisao());
                     break;
 
             }
