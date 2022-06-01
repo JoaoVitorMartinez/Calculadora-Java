@@ -13,9 +13,9 @@ import static junit.framework.Assert.assertEquals;
 /**
  * @author alunopb
  */
-public class TesteCalculadoraDivisao {
+public class TesteCalculadora {
 
-    public TesteCalculadoraDivisao() {
+    public TesteCalculadora() {
     }
 
     @Test
