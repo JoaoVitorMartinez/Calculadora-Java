@@ -23,6 +23,6 @@ public class NewTestSuite {
         return new JUnit4TestAdapter(NewTestSuite.class);
     }
 
-    //dsmdia
+
     
 }
