@@ -25,12 +25,10 @@ public class TesteCalculadoraAdicao {
         double retornoEsperado = 6.0;
         double retornoFeito = calculadora.getAdicao();
         assertEquals(retornoEsperado, retornoFeito, 0);
-        
-//        System.out.println(retornoFeito);
-        
-        
-        
+
     }
+
+
     
    
 
