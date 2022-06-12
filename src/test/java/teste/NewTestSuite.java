@@ -11,10 +11,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-/**
- *
- * @author alunopb
- */
+
 @RunWith(Suite.class) // No SuiteClasses Vai todos os testes unitários para serem realizados em conjunto.
 @SuiteClasses({TesteCalculadora.class})
 
